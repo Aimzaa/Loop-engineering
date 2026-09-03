@@ -1,0 +1,34 @@
+[would POST to Slack channel #eng-morning-brief]
+
+# Morning Brief - 2026-09-01
+_repo: cli/cli - window: 48h - generated: 2026-09-01T06:52:35.398Z_
+
+## NEW
+- #14308 Support for Archiving Labels
+- #14171 auth status misreports an inaccessible keyring as an invalid token
+- #14306 gh project view-list, and gh project item-list --view <number>
+- #14090 [aw] Detection Runs
+- #14302 `--attach` requires write access, so outside reporters cannot attach screenshots
+- #13928 `gh attestation verify`: match the OIDC subject (`sub`) claim
+- #13961 gh release download: verify downloaded assets against a checksum file
+- #14026 Issue triage agent is told to add `gh-*` command labels it cannot apply
+- #13840 [aw] No-Op Runs
+- #14297 GH repo create accepts empty repo names
+- CI "Bump Go" (trunk)
+- CI "Unit and Integration Tests" (fix-typos-v2)
+- CI "Code Scanning" (fix-typos-v2)
+- CI "Lint" (fix-typos-v2)
+- CI "Unit and Integration Tests" (codex/fix-14216-gist-utf8)
+- CI "Code Scanning" (codex/fix-14216-gist-utf8)
+- CI "Lint" (codex/fix-14216-gist-utf8)
+- CI "Bump Go" (trunk)
+- CI "Lint" (maxbeizer-fix-project-scope-error)
+
+## FIXED
+- (none)
+
+## STILL OPEN
+- (none)
+
+## Biggest risk today
+- CI "Bump Go" (trunk) - a CI failure is unblocking work; triage first.

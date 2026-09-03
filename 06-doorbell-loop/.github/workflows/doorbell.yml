@@ -1,0 +1,43 @@
+name: Doorbell — PR review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+# ⚠️ THE setting the course warns about. Without pull-requests: write the job
+# goes green but the review comment posts nowhere.
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    # Don't let the bot review its own follow-up commits.
+    if: github.event.pull_request.user.type != 'Bot'
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run Claude Code review
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Read SKILL.md and review-checklist.md in this repo.
+            Review the diff of this pull request against the checklist.
+            Post exactly one review comment following the output format in review-checklist.md.
+            You are the checker only — never merge or approve.
+
+      # Fallback if you prefer the plain CLI instead of the action:
+      # - run: |
+      #     npm i -g @anthropic-ai/claude-code
+      #     gh pr diff "$PR" > change.diff
+      #     node review-local.js change.diff
+      #     gh pr comment "$PR" --body-file review.md
+      #   env:
+      #     PR: ${{ github.event.pull_request.number }}
+      #     GH_TOKEN: ${{ github.token }}
+      #     CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}

@@ -1,0 +1,7 @@
+{
+  "issue": "#4102",
+  "what": "add a `jitter` parameter to retry() so backoff can be randomised",
+  "op": "add-param",
+  "fn": "retry",
+  "param": "jitter"
+}

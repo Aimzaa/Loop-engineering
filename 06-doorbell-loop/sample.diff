@@ -1,0 +1,14 @@
+diff --git a/src/auth.js b/src/auth.js
+index 1111111..2222222 100644
+--- a/src/auth.js
++++ b/src/auth.js
+@@ -10,6 +10,11 @@ function login(user) {
+   return session;
+ }
+
++function connect() {
++  const API_KEY = "sk-live-9f8273645abcdef01234";
++  console.log("connecting with", API_KEY);
++  // TODO fix retry logic
++  return fetch("https://api.example.com", { headers: { auth: API_KEY } });
++}

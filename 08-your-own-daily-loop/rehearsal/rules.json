@@ -1,0 +1,22 @@
+{
+  "project": "cli/cli  (stand-in for YOUR repo)",
+  "channel": "#eng-standup",
+  "ignore": [
+    { "match": "label", "value": "wontfix" },
+    { "match": "author", "value": "dependabot[bot]" }
+  ],
+  "P0": [
+    { "match": "title_regex", "value": "crash|panic|data ?loss|security|CVE|segfault", "why": "severe user impact" },
+    { "match": "label", "value": "release-blocker", "why": "blocks a release" },
+    { "match": "ci_branch", "value": "trunk", "why": "main-branch CI is red" }
+  ],
+  "P1": [
+    { "match": "label", "value": "bug", "why": "confirmed bug" },
+    { "match": "label", "value": "needs-triage", "why": "unowned, needs a look" },
+    { "match": "ci_any", "value": true, "why": "a CI failure on some branch" }
+  ],
+  "P2": [
+    { "match": "label", "value": "enhancement", "why": "nice-to-have" },
+    { "match": "label", "value": "docs", "why": "documentation" }
+  ]
+}

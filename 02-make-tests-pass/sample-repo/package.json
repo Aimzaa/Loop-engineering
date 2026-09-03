@@ -1,0 +1,10 @@
+{
+  "name": "auth-sample",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Practice repo for Loop Engineering Project 2 — failing tests in test/auth.",
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\"",
+    "lint": "node tools/lint.js"
+  }
+}

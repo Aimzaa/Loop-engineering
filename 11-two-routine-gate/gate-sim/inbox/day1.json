@@ -1,0 +1,7 @@
+{
+  "issue": "#4101",
+  "what": "bump per-request timeout 30s -> 60s (users on slow links time out)",
+  "op": "set-number",
+  "key": "TIMEOUT_MS",
+  "value": 60000
+}

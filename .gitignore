@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Local tool / editor state
+.claude/
+.vscode/
+.idea/
+
+# Secrets / credentials (defensive — none are committed)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials.json
+secrets.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / temp
+*.log
+*.tmp
+*.pid
+
+# Project 11 — checker scratch copies (regenerated on every run)
+11-two-routine-gate/gate-sim/prs/*/config.underTest.js
+11-two-routine-gate/gate-sim/prs/*/_run.test.js

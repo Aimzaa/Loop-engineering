@@ -1,0 +1,11 @@
+{
+  "pr": "pr-2",
+  "date": "2026-09-02",
+  "issue": "#4102",
+  "what": "add a `jitter` parameter to retry() so backoff can be randomised",
+  "op": "add-param",
+  "changed_lines": [
+    14
+  ],
+  "base_file": "main/config.js"
+}

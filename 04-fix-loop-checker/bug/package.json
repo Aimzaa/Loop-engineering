@@ -1,0 +1,9 @@
+{
+  "name": "paginate-bug",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Project 4 — a small lib with a real bug and a failing test. The maker fixes src/; the checker grades it.",
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\""
+  }
+}

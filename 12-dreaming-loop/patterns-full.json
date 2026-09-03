@@ -1,0 +1,14 @@
+{
+  "note": "Ground truth: every risky pattern deliberately planted in scan-target/payments.js. scan.js computes 'Missed' = these minus what the current skill catches.",
+  "patterns": [
+    { "id": "secret",      "name": "hard-coded secret / API key" },
+    { "id": "eval",        "name": "eval() on a runtime string" },
+    { "id": "weak-random", "name": "Math.random() used for a token/key" },
+    { "id": "sql-concat",  "name": "SQL built by string concatenation (injection)" },
+    { "id": "empty-catch", "name": "empty catch block swallows errors" },
+    { "id": "await-loop",  "name": "await inside a for-loop (sequential)" },
+    { "id": "no-timeout",  "name": "network call with no timeout / AbortSignal" },
+    { "id": "loose-eq",    "name": "== instead of === on user input" },
+    { "id": "log-pii",     "name": "logging a full payload (possible PII)" }
+  ]
+}

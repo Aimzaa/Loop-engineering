@@ -1,0 +1,169 @@
+{
+  "repo": "cli/cli",
+  "window_hours": 48,
+  "generated_at": "2026-09-01T06:52:35.398Z",
+  "issues": [
+    {
+      "key": "#14308",
+      "title": "Support for Archiving Labels",
+      "labels": [
+        "needs-triage"
+      ],
+      "updated_at": "2026-09-01T06:36:05Z",
+      "url": "https://github.com/cli/cli/issues/14308"
+    },
+    {
+      "key": "#14171",
+      "title": "auth status misreports an inaccessible keyring as an invalid token",
+      "labels": [
+        "bug",
+        "priority-3",
+        "gh-auth"
+      ],
+      "updated_at": "2026-09-01T04:30:45Z",
+      "url": "https://github.com/cli/cli/issues/14171"
+    },
+    {
+      "key": "#14306",
+      "title": "gh project view-list, and gh project item-list --view <number>",
+      "labels": [
+        "needs-triage"
+      ],
+      "updated_at": "2026-08-31T21:09:35Z",
+      "url": "https://github.com/cli/cli/issues/14306"
+    },
+    {
+      "key": "#14090",
+      "title": "[aw] Detection Runs",
+      "labels": [
+        "agentic-workflows"
+      ],
+      "updated_at": "2026-08-31T18:45:44Z",
+      "url": "https://github.com/cli/cli/issues/14090"
+    },
+    {
+      "key": "#14302",
+      "title": "`--attach` requires write access, so outside reporters cannot attach screenshots",
+      "labels": [
+        "needs-triage"
+      ],
+      "updated_at": "2026-08-31T15:17:29Z",
+      "url": "https://github.com/cli/cli/issues/14302"
+    },
+    {
+      "key": "#13928",
+      "title": "`gh attestation verify`: match the OIDC subject (`sub`) claim",
+      "labels": [
+        "enhancement",
+        "gh-attestation",
+        "stale"
+      ],
+      "updated_at": "2026-08-31T03:12:30Z",
+      "url": "https://github.com/cli/cli/issues/13928"
+    },
+    {
+      "key": "#13961",
+      "title": "gh release download: verify downloaded assets against a checksum file",
+      "labels": [
+        "enhancement",
+        "gh-release",
+        "stale"
+      ],
+      "updated_at": "2026-08-31T03:12:28Z",
+      "url": "https://github.com/cli/cli/issues/13961"
+    },
+    {
+      "key": "#14026",
+      "title": "Issue triage agent is told to add `gh-*` command labels it cannot apply",
+      "labels": [
+        "tech-debt",
+        "stale"
+      ],
+      "updated_at": "2026-08-31T03:12:25Z",
+      "url": "https://github.com/cli/cli/issues/14026"
+    },
+    {
+      "key": "#13840",
+      "title": "[aw] No-Op Runs",
+      "labels": [
+        "agentic-workflows"
+      ],
+      "updated_at": "2026-08-30T22:03:59Z",
+      "url": "https://github.com/cli/cli/issues/13840"
+    },
+    {
+      "key": "#14297",
+      "title": "GH repo create accepts empty repo names",
+      "labels": [
+        "needs-triage"
+      ],
+      "updated_at": "2026-08-30T10:47:04Z",
+      "url": "https://github.com/cli/cli/issues/14297"
+    }
+  ],
+  "ci_failures": [
+    {
+      "key": "CI \"Bump Go\" (trunk)",
+      "name": "Bump Go",
+      "branch": "trunk",
+      "created_at": "2026-09-01T03:21:38Z",
+      "url": "https://github.com/cli/cli/actions/runs/33465925397"
+    },
+    {
+      "key": "CI \"Unit and Integration Tests\" (fix-typos-v2)",
+      "name": "Unit and Integration Tests",
+      "branch": "fix-typos-v2",
+      "created_at": "2026-08-31T21:22:16Z",
+      "url": "https://github.com/cli/cli/actions/runs/33440996712"
+    },
+    {
+      "key": "CI \"Code Scanning\" (fix-typos-v2)",
+      "name": "Code Scanning",
+      "branch": "fix-typos-v2",
+      "created_at": "2026-08-31T21:22:16Z",
+      "url": "https://github.com/cli/cli/actions/runs/33440996815"
+    },
+    {
+      "key": "CI \"Lint\" (fix-typos-v2)",
+      "name": "Lint",
+      "branch": "fix-typos-v2",
+      "created_at": "2026-08-31T21:22:16Z",
+      "url": "https://github.com/cli/cli/actions/runs/33440996751"
+    },
+    {
+      "key": "CI \"Unit and Integration Tests\" (codex/fix-14216-gist-utf8)",
+      "name": "Unit and Integration Tests",
+      "branch": "codex/fix-14216-gist-utf8",
+      "created_at": "2026-08-31T20:32:20Z",
+      "url": "https://github.com/cli/cli/actions/runs/33436570039"
+    },
+    {
+      "key": "CI \"Code Scanning\" (codex/fix-14216-gist-utf8)",
+      "name": "Code Scanning",
+      "branch": "codex/fix-14216-gist-utf8",
+      "created_at": "2026-08-31T20:32:20Z",
+      "url": "https://github.com/cli/cli/actions/runs/33436570189"
+    },
+    {
+      "key": "CI \"Lint\" (codex/fix-14216-gist-utf8)",
+      "name": "Lint",
+      "branch": "codex/fix-14216-gist-utf8",
+      "created_at": "2026-08-31T20:32:20Z",
+      "url": "https://github.com/cli/cli/actions/runs/33436570117"
+    },
+    {
+      "key": "CI \"Bump Go\" (trunk)",
+      "name": "Bump Go",
+      "branch": "trunk",
+      "created_at": "2026-08-31T03:21:05Z",
+      "url": "https://github.com/cli/cli/actions/runs/33353571354"
+    },
+    {
+      "key": "CI \"Lint\" (maxbeizer-fix-project-scope-error)",
+      "name": "Lint",
+      "branch": "maxbeizer-fix-project-scope-error",
+      "created_at": "2026-08-30T16:02:53Z",
+      "url": "https://github.com/cli/cli/actions/runs/33321337572"
+    }
+  ]
+}

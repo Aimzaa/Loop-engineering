@@ -1,0 +1,11 @@
+{
+  "pr": "pr-1",
+  "date": "2026-09-01",
+  "issue": "#4101",
+  "what": "bump per-request timeout 30s -> 60s (users on slow links time out)",
+  "op": "set-number",
+  "changed_lines": [
+    3
+  ],
+  "base_file": "main/config.js"
+}

@@ -1,0 +1,61 @@
+{
+  "runs": 9,
+  "last_status": "success",
+  "last_value": 5,
+  "history": [
+    {
+      "run": 1,
+      "status": "success",
+      "value": 5,
+      "iters": 5
+    },
+    {
+      "run": 2,
+      "status": "RUNAWAY",
+      "value": 40,
+      "iters": 40
+    },
+    {
+      "run": 3,
+      "status": "success",
+      "value": 5,
+      "iters": 5
+    },
+    {
+      "run": 4,
+      "status": "stuck",
+      "value": 0,
+      "iters": 4
+    },
+    {
+      "run": 5,
+      "status": "success",
+      "value": 5,
+      "iters": 5
+    },
+    {
+      "run": 6,
+      "status": "success",
+      "value": 1,
+      "iters": 1
+    },
+    {
+      "run": 7,
+      "status": "success",
+      "value": 5,
+      "iters": 5
+    },
+    {
+      "run": 8,
+      "status": "success",
+      "value": 5,
+      "iters": 5
+    },
+    {
+      "run": 9,
+      "status": "success",
+      "value": 5,
+      "iters": 5
+    }
+  ]
+}

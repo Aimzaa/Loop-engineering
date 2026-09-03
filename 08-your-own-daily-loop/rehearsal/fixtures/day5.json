@@ -1,0 +1,113 @@
+{
+  "repo": "cli/cli",
+  "window_hours": 24,
+  "generated_at": "2026-09-05T08:55:00.000Z",
+  "issues": [
+    {
+      "key": "#90003",
+      "title": "security: token written to debug log at verbose level",
+      "labels": [
+        "needs-triage"
+      ],
+      "author": "sec-reporter",
+      "url": "https://github.com/cli/cli/issues/90003"
+    },
+    {
+      "key": "#14322",
+      "title": "auth token --user can return stale keyring token after --insecure-storage refresh",
+      "labels": [
+        "bug",
+        "priority-3",
+        "gh-auth"
+      ],
+      "author": "cephalin",
+      "url": "https://github.com/cli/cli/issues/14322"
+    },
+    {
+      "key": "#14090",
+      "title": "[aw] Detection Runs",
+      "labels": [
+        "agentic-workflows"
+      ],
+      "author": "cli-triage[bot]",
+      "url": "https://github.com/cli/cli/issues/14090"
+    },
+    {
+      "key": "#14317",
+      "title": "`gh pr edit --title` fails when a team reviewer is inaccessible to the token",
+      "labels": [
+        "needs-triage"
+      ],
+      "author": "timrogers",
+      "url": "https://github.com/cli/cli/issues/14317"
+    },
+    {
+      "key": "#13872",
+      "title": "gh auth status should indicate when a token is stored in plain text",
+      "labels": [
+        "enhancement",
+        "gh-auth",
+        "stale"
+      ],
+      "author": "adamsjack711-ux",
+      "url": "https://github.com/cli/cli/issues/13872"
+    },
+    {
+      "key": "#14075",
+      "title": "Claude Code doesn't read AGENTS.md, so our agent instructions are likely being ignored",
+      "labels": [
+        "tech-debt"
+      ],
+      "author": "williammartin",
+      "url": "https://github.com/cli/cli/issues/14075"
+    },
+    {
+      "key": "#14302",
+      "title": "`--attach` requires write access, so outside reporters cannot attach screenshots",
+      "labels": [
+        "blocked",
+        "enhancement",
+        "platform",
+        "gh-pr",
+        "gh-issue"
+      ],
+      "author": "claell",
+      "url": "https://github.com/cli/cli/issues/14302"
+    },
+    {
+      "key": "#14308",
+      "title": "Support for Archiving Labels",
+      "labels": [
+        "enhancement",
+        "gh-label"
+      ],
+      "author": "dsanders11",
+      "url": "https://github.com/cli/cli/issues/14308"
+    },
+    {
+      "key": "#10635",
+      "title": "can `gh gist list` support json formatted output?",
+      "labels": [
+        "enhancement",
+        "gh-gist",
+        "help wanted candidate"
+      ],
+      "author": "dotysan",
+      "url": "https://github.com/cli/cli/issues/10635"
+    }
+  ],
+  "ci": [
+    {
+      "key": "CI \"Bump Go\" (trunk)",
+      "name": "Bump Go",
+      "branch": "trunk",
+      "url": "https://github.com/cli/cli/actions/runs/33586596487"
+    },
+    {
+      "key": "CI \"Lint\" (fix/13804-gh-issue-create-errors-after-successful)",
+      "name": "Lint",
+      "branch": "fix/13804-gh-issue-create-errors-after-successful",
+      "url": "https://github.com/cli/cli/actions/runs/33532739926"
+    }
+  ]
+}
