@@ -39,3 +39,5 @@ Yehi logic Action ke andar `SKILL.md` ke steps se chalti hai.
 - Loop kabhi tumhari machine par tha hi nahi — GitHub ne runner "kiraye" pe liya, kaam kiya, machine phenk di.
 - Spine = repo khud (agent ne repo parh kar context uthaya).
 - Maker (PR author) aur checker (review agent) alag — checker merge nahi karta, sirf grade karta hai.
+
+<!-- Project 6 clean PR verification -->
